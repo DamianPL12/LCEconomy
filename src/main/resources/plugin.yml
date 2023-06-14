@@ -1,0 +1,13 @@
+name: LCEconomia
+version: '${project.version}'
+main: lc.lceconomia.LCEconomia
+load: STARTUP
+commands:
+  vippoints:
+    description: Comando base de la economia VipPoints
+    aliases:
+      - vp
+  lcoins:
+    description: Comando base de la economia LCoins
+    aliases:
+      - lc
